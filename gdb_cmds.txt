@@ -1,0 +1,30 @@
+set args cp_function.c copy.c
+
+# break
+b 7
+
+# run
+r
+
+# print
+p argc
+
+set var argc = 2
+
+p argc  
+
+p printf("%s, %s, %s\n", argv[0], argv[1], argv[2])
+
+set var argc = 3
+
+# next
+n
+
+# step
+s
+
+# continue
+c
+
+# quit
+q
