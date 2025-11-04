@@ -3,7 +3,7 @@
 void bar(int num) {
     int* ptr = NULL;
 
-    *ptr = num; 
+    *ptr = num;
 }
 
 void foo(int num) {
